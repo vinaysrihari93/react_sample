@@ -3,7 +3,6 @@ import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, Cart
 import { TrendingDown, AlertCircle, Activity } from 'lucide-react';
 
 const MalnutritionDashboard = () => {
-  const [selectedState, setSelectedState] = useState('National Average');
   const [selectedMetric, setSelectedMetric] = useState('stunting');
 
   // Data for stunting, wasting, and underweight by state
@@ -57,7 +56,6 @@ const MalnutritionDashboard = () => {
     { subject: 'Income', value: 75 },
   ];
 
-  const COLORS = ['#ef4444', '#f59e0b', '#8b5cf6', '#06b6d4', '#10b981', '#ec4899'];
   
   // Professional color palette for impact factors - sophisticated and business-appropriate
   const IMPACT_COLORS = [

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
-import { TrendingDown, Users, AlertCircle, Activity } from 'lucide-react';
+import { TrendingDown, AlertCircle, Activity } from 'lucide-react';
 
 const MalnutritionDashboard = () => {
   const [selectedState, setSelectedState] = useState('National Average');
